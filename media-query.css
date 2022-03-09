@@ -1,0 +1,176 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .about{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    .resume{
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .contact{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+
+    .content {
+        margin-bottom: 20px;
+    }
+
+    .about h1, .resume h1, .contact h1 {
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    
+    .about p{
+        text-align: justify;
+        padding-bottom: 8px;
+    }
+
+    .resume h5 {
+        font-size: 16px; font-weight: 400;
+    }
+
+    .resume p{
+        font-size: 14px; font-weight: 400;
+    }
+
+    .contact-custom .row{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .social, .phone, .my-email{
+        margin-bottom: 15px;
+    }
+ }
+
+ @media (min-width: 576px) { 
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .about{
+        margin-top: 15px;
+        padding: 0 30px;
+    }
+
+    .resume{
+        margin-top: 10px;
+        padding: 0 30px;
+    }
+
+    .contact{
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+
+    .row-custom{
+        padding-left: 0;
+    }
+
+    .about h1, .resume h1, .contact h1 {
+        padding-bottom: 8px;
+        text-align: left;
+    }
+    
+    .about p{
+        text-align: justify;
+        padding-bottom: 5px;
+    }
+
+    .resume h5 {
+        font-size: 18px; font-weight: 400;
+    }
+
+    .resume p{
+        font-size: 14px; font-weight: 400;
+    }
+
+    .social, .phone, .my-email{
+        margin-bottom: 15px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .row-custom{
+        padding-left: 5%;
+    }
+
+    .about{
+        margin-top: 30px;
+        padding: 0 50px;
+    }
+    
+    .resume{
+        margin-top: 50px;
+        padding: 0 50px;
+    }
+
+    .content{
+        margin-bottom: 30px;
+    }
+
+    .contact{
+        margin-top: 10px;
+        padding: 0 50px;
+    }
+
+    .about h1, .resume h1, .contact h1 {
+        padding-bottom: 20px;
+        text-align: left;
+    }
+
+    .contact-custom .row{
+        margin: 0 20px;
+        justify-content: space-between;
+    }
+
+    .social, .my-email, .phone{
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .about{
+        margin-top: 20px;
+        padding: 0 150px;
+    }
+    
+    .resume{
+        margin-top: 25px;
+        padding: 0 150px;
+    }
+
+    .contact{
+        margin-top: 10px;
+        padding: 0 80px;
+    }
+
+    .about h1, .resume h1 {
+        padding-bottom: 20px;
+        text-align: left;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }

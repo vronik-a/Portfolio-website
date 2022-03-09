@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
+
+body{
+    background-color: #1F2833;
+    font-family: 'montserrat';
+    color: white;
+}
+
+.custom{
+    padding: 0;
+}
+
+.custom-nav a{
+    color: #FCE300;
+    font-weight: 900;
+}
+
+.custom-nav {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:#1F2833;
+    border-bottom: #FFD300 3px solid;
+    border-bottom: #FFD300 3px solid;
+}
+
+.background{
+    background-color: rgb(21, 145, 114);
+    background-position: 0;
+    height: 80vh;
+    color: white;
+}
+
+.background .intro{
+    margin-top: 15%;
+    padding-left: 5%;
+}
+
+.background .intro h1{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bolder; 
+    font-size: 40px;
+    color: #FFD300;
+    margin-bottom: 5px;
+}
+
+.background h6 {
+    font-size: 16px; font-weight: 400;
+}
+
+.background .intro span a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+    color: #1F2833;
+}
+
+.pic, .intro{
+    height: 80vh;
+    /* border: #1F2833 2px solid; */
+}
+
+.pic{
+    padding: 50px;
+}
+
+.profile-img{
+    height: 60vh;
+    width: 100%;
+    border: #FCE300 solid 3px;
+    border-radius: 100%;
+}
+
+.background span i{
+    color: #1F2833;
+}
+
+.about h1, .resume h1, .contact h1 {
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bolder; 
+    font-size: 40px;
+    color:#FFD300;
+}
+
+.about p, .resume{
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+.resume h5 .fi-rr-angle-double-small-right {
+    color: #FFD300;
+}
+
+i {
+    color:rgb(21, 145, 114);
+    font-weight: bolder;
+}
+
+.contact-custom {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social{
+    padding: 10px 0;
+    background-color: rgb(21, 145, 114);
+}
+
+.my-email, .phone{
+    padding: 15px 0;
+    background-color: rgb(21, 145, 114);
+}
+
+.social button, .my-email button, .phone button{
+    border: 0;
+    border-radius: 100%;
+    padding: 10px 12px 5px 12px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.social button .fi, .my-email button .fi, .phone button .fi {
+    font-size: 30px;
+}
+
+.social h4, .my-email h4, .phone h4{
+    text-decoration: underline;
+    font-weight: 900;
+    color: #1F2833;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 10px 10px 0;
+}
+
+.social a i{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FCE205;
+}
+
+footer{
+    padding: 10px;
+    font-size: 12px;
+    text-align: end;
+}
