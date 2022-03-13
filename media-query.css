@@ -4,6 +4,57 @@
         font-size: 16px;
     }
 
+    .background{
+        background-color: rgb(21, 145, 114);
+        background-position: 0;
+        color: white;
+        padding: 0;
+    }
+    
+    .background .row{
+        text-align: center;
+        padding-top: 5%;
+        height: 80vh;
+        margin: 0;
+        width: 100%;
+    }
+
+    .background .intro p, .background .intro h6{
+        font-size: 20px; 
+        font-weight: 400;
+    }
+
+    .intro p{
+        margin-bottom: 2px;
+    }
+
+    .background .intro h1{
+        font-family: 'Ubuntu', sans-serif; 
+        font-weight: bolder; 
+        font-size: 20px;
+        color: #FFD300;
+        margin-bottom: 5px;
+    }
+    
+    .background h6 {
+        font-size: 12px; 
+        font-weight: 400;
+    }
+
+    .background .intro span a{
+        text-decoration: none;
+        font-size: 12px;
+        padding-right: 15px;
+        color: #1F2833;
+    }
+
+    .profile-img{
+        height: 50vh;
+        width: 70%;
+        border: #FCE300 solid 3px;
+        border-radius: 100%;
+    }
+
     .about{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -28,6 +79,7 @@
     .about h1, .resume h1, .contact h1 {
         padding-bottom: 5px;
         text-align: center;
+        font-size: 14px; 
     }
     
     .about p{
@@ -40,7 +92,8 @@
     }
 
     .resume p{
-        font-size: 14px; font-weight: 400;
+        font-size: 14px; 
+        font-weight: 400;
     }
 
     .contact-custom .row{
@@ -57,6 +110,7 @@
     .navbar-brand {
         font-size: 16px;
     }
+    
 
     .about{
         margin-top: 15px;
@@ -88,7 +142,8 @@
     }
 
     .resume h5 {
-        font-size: 18px; font-weight: 400;
+        font-size: 18px; 
+        font-weight: 400;
     }
 
     .resume p{
@@ -104,6 +159,67 @@
 @media (min-width: 768px) { 
     .row-custom{
         padding-left: 5%;
+    }
+
+    .background{
+        background-color: rgb(21, 145, 114);
+        background-position: 0;
+        height: 80vh;
+        color: white;
+    }
+    
+    .background .intro{
+        margin-top: 15%;
+        padding-left: 5%;
+    }
+
+    .background .intro p{
+        font-size: 14px; 
+    }
+    
+    .background .intro h1{
+        font-family: 'Ubuntu', sans-serif; 
+        font-weight: bolder; 
+        font-size: 50px;
+        color: #FFD300;
+        margin-bottom: 5px;
+    }
+    
+    .intro p{
+        margin-bottom: 2px;
+    }
+
+    .background .intro p, .background .intro h6{
+        font-size: 20px; 
+        font-weight: 400;
+    }
+
+    .background .intro span a{
+        text-decoration: none;
+        font-size: 20px;
+        padding-right: 15px;
+        color: #1F2833;
+    }
+
+    .background .intro h6{
+        margin-bottom: 25px;
+    }
+
+    .pic, .intro{
+        height: 80vh;
+        /* border: #1F2833 2px solid; */
+    }
+
+    .pic{
+        padding: 1% 0 0 0;
+        /* border: #1F2833 2px solid; */
+    }
+
+    .profile-img{
+        height: 76vh;
+        width: 90%;
+        border: #FCE300 solid 3px;
+        border-radius: 100%;
     }
 
     .about{
@@ -147,6 +263,15 @@
     .about{
         margin-top: 20px;
         padding: 0 150px;
+    }
+
+    .background .intro p, .background .intro h6{
+        font-size: 24px; 
+        font-weight: 400;
+    }
+
+    .pic{
+        padding: 1% 0 0 10%;
     }
     
     .resume{

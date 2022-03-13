@@ -28,53 +28,6 @@ body{
     border-bottom: #FFD300 3px solid;
 }
 
-.background{
-    background-color: rgb(21, 145, 114);
-    background-position: 0;
-    height: 80vh;
-    color: white;
-}
-
-.background .intro{
-    margin-top: 15%;
-    padding-left: 5%;
-}
-
-.background .intro h1{
-    font-family: 'Ubuntu', sans-serif; 
-    font-weight: bolder; 
-    font-size: 40px;
-    color: #FFD300;
-    margin-bottom: 5px;
-}
-
-.background h6 {
-    font-size: 16px; font-weight: 400;
-}
-
-.background .intro span a{
-    text-decoration: none;
-    font-size: 20px;
-    padding-right: 15px;
-    color: #1F2833;
-}
-
-.pic, .intro{
-    height: 80vh;
-    /* border: #1F2833 2px solid; */
-}
-
-.pic{
-    padding: 50px;
-}
-
-.profile-img{
-    height: 60vh;
-    width: 100%;
-    border: #FCE300 solid 3px;
-    border-radius: 100%;
-}
-
 .background span i{
     color: #1F2833;
 }
@@ -149,5 +102,5 @@ i {
 footer{
     padding: 10px;
     font-size: 12px;
-    text-align: end;
+    text-align: center;
 }
